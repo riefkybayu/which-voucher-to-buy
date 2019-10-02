@@ -1,0 +1,12 @@
+<form [formGroup]="angularform" (ngSubmit)="send_toko()">
+    <label>
+      Saldo yang kamu miliki:
+      <input type="number" formControlName="saldo">
+    </label>
+  <br>
+    <label>
+      Total harga di cart kamu:
+      <input type="number" formControlName="harga">
+    </label>
+    <button type="submit">Submit</button>
+</form>
